@@ -1,0 +1,416 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&family=Alfa+Slab+One&family=Signika&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+.ImHead{    
+    background-image:  url(img/head.jpg); 
+    height: 800px;
+    width: 100%;
+    background-position: absolute;
+    background-size: cover;
+    margin-bottom: 100px;
+    padding: 0;
+    box-shadow:0px -5px 100px 12px rgba(97,97,97,1);
+    -webkit-box-shadow:0px -5px 100px 12px rgba(97,97,97,1);
+    -moz-box-shadow:0px -5px 100px 12px rgba(97,97,97,1);
+    }
+
+.AboutHead{  
+    text-align: justify;
+}
+.logoo{
+    height: 150px;
+    border-bottom-right-radius: 100px;
+    margin-bottom: 40px;
+}
+.navigation{
+    -webkit-text-fill-color: #114240;
+    background-color: #A7DBB8;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 0px 6px 0px 6px;
+    animation: fadeInDown;
+    animation-duration: 2s;
+    display: flex;
+    list-style: none;
+}
+.navigation > a > li{
+    border-radius: 13px;
+    width: 100px;
+    padding: 9px;
+}
+.navigation > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    color:#114240;
+    border-radius: 13px;
+}
+.navigation > a > li:hover {
+    background:#a0ceaf;
+}
+.vaar {
+    width: 100%;
+    top:0;
+    position: absolute;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+ .ImHead > .AboutHead >  h1 {
+    font-size:70px;
+    color: #5eb07d;
+    margin: auto;
+    padding-left: 100px;
+ }
+ .ImHead > .AboutHead > h2{
+    color:#18211F;
+    padding-left: 100px;
+    margin: auto;
+    font-size: 70px;
+ }
+ .ab{
+    padding-inline-start: 0px;
+    background-color:#9de0b9;
+    border-color:#81ac8f;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 27px;   
+    text-align: center;
+    border-radius: 20px;
+    list-style: none;
+    width: 200px;
+    margin: 14.5% auto auto 43.5%;     
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 600;
+ }
+ .ab > a{
+    color:#195755;
+ }
+ .ab > a > li{
+    border-radius: 20px;
+    padding: 20px;
+ }
+ .ab > a > li:hover{
+    background:#8dd1a3;
+ }
+.Team > h1{
+    font-size: 50px;
+    text-align: center;
+    color: #114240;
+    margin: auto;
+    padding-top: 150px;
+    font-family: "Gill Sans", sans-serif;
+}
+.line{
+    height: 10px;
+    margin: 0px 500px 80px 500px;
+    background-color: #5E8F6E;
+    border-radius: 30px;
+} 
+.MyTeam {
+    text-align: center;
+    padding-bottom: 10%;
+}
+.block {
+    max-height: 1000px;
+    max-width: 350px;
+    word-break:normal;
+    display: inline-block;
+    padding: 40px 40px 40px 40px;
+    width: 500px;
+    margin: 0 auto;
+    vertical-align: top;
+}
+
+.block > img{
+    width: 300px;
+    height: auto;
+    text-align: left;
+    margin: 0px 50px 0px 20px;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: #e1efe6;
+    border-style:solid;
+}
+
+h3{
+    color: #114240;
+    font-size: 50px;
+}
+
+.block > p1 {
+    padding: auto;
+    font-family: system-ui;
+    font-size: 20px;
+}
+
+.down{
+    width: cover;
+    background-color: black;
+    color: #6da884;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.down > p{
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+h6{
+    padding: auto;
+    font-size: 30px;
+}
+
+.siety{
+    padding-left: 100px;
+    padding-bottom: 60px;
+    font-size: 20px;
+} 
+
+.block2{
+padding:0px 70px 10px 70px;
+}
+
+.block2 > a{
+    color:rgb(207, 207, 207);
+    margin: auto 20px auto auto;
+    list-style-type: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.down > .block2 > p2{
+    color:rgb(207, 207, 207);
+    margin: auto auto 20px auto;
+    list-style-type: none;
+    font-size: 20px;
+    display:list-item;
+    list-style-type: none;
+}
+
+.logo{
+    padding-left: 50px;
+}
+
+.Head{   
+    background-image:  url(img/); 
+    height: 500px;
+    width: 100%;
+    background-position: absolute;
+    background-size: cover;
+    padding: 0;
+    box-shadow:0px -5px 100px 12px rgba(97,97,97,1);
+    -webkit-box-shadow:0px -5px 100px 12px rgba(97,97,97,1);
+    -moz-box-shadow:0px -5px 100px 12px rgba(97,97,97,1);
+}
+.Head > .vaar > h1{
+    font-size:70px;
+    margin-top: 32%;
+    color:#114240;
+    text-align: center;
+}
+.content{
+    text-align: center;
+}
+.content > h1{
+    font-size: 50px;
+    text-align: center;
+    color: #114240;
+    margin: auto;
+    padding-top: 100px;
+    font-family: "Gill Sans", sans-serif;
+}
+.content > p{
+    padding-top: 30px;
+    font-family: system-ui;
+    font-size: 20px;
+    word-break:normal;
+    margin: 30px 400px 60px 400px;
+}
+.content > img{
+    width: 50%;
+    padding-bottom: 60px;
+}
+.appl{
+    text-align: center;
+    padding-bottom: 10%;
+}
+.appl > h1{
+    font-size: 50px;
+    text-align: center;
+    color: #114240;
+    margin-bottom: 40px;
+    padding-top: 100px;
+    font-family: "Gill Sans", sans-serif;
+}
+.appl > h2{
+    font-family: "Gill Sans", sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.appl > .block3{
+    margin-top: 2%;
+    text-align: center;
+    word-break:normal;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+.appl > .block3 > h1{
+    font-family: Georgia;
+    font-size: 33px;
+    text-decoration: underline;
+}
+.appl > .block3 > p{
+    font-family: system-ui;
+    font-size: 20px;
+    word-break:normal;
+}
+
+.appl > .linee{
+    height: 400px;
+    width: 2px;
+    background-color: #000000;
+    position: absolute;
+    left: 50%;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.but{
+    background-color:#A7DBB8;
+    border-color:#6da884;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 27px;   
+    text-align: center;
+    border-radius: 30px;
+    list-style: none;
+    width: 200px;
+    margin:auto;
+    margin-bottom: 60px;   
+}
+.but > a{
+    color: #114240;
+ }
+.but > a > li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 20px;
+ }
+.but > a > li:hover{
+    background: #a0ceaf;
+ }
+.cont{
+    text-align: center;
+    left: 50%;
+}
+.cont > h1{
+    font-size: 50px;
+    text-align: center;
+    color: #114240;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    font-family: "Gill Sans", sans-serif;
+}
+.cont > .box{
+    margin: 20px;
+}
+.cont > form > p > input{
+    padding: 20px;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+}
+.cont > form > p > textarea{
+    padding: 20px;
+    width: 540px;
+    height: 140px;
+    font-size: 20px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+}
+.cont > form > p > .Submit{
+    background-color:#A7DBB8;
+    border-color:#6da884;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 27px;   
+    text-align: center;
+    border-radius: 30px;
+    list-style: none;
+    width: 200px;
+    margin: 14.5% auto auto 43%;   
+}
+.cont > form > p > .Submit > a{
+    color: #114240;
+ }
+ .cont > form > p > .Submit> a > li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 20px;
+ }
+ .cont > form > p > .Submit > a > li:hover{
+    background: #a0ceaf;
+ }
+ .line2{
+    height: 5px;
+    margin: 50px 500px 50px 500px;
+    background-color:#114240;
+    border-radius: 30px;
+ }
+.contain > .block3{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    word-break:normal;
+    display:inline-block;
+}
+.contain > .block3 > a > img{
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+.contain > .block3 > a{
+    color: #000000;
+    margin: auto;
+    list-style-type: none;
+    font-size: 23px;
+    list-style-type: none;
+    font-family: system-ui;
+    text-decoration-line: underline;
+    font-weight: 600;
+    background-size: auto;  
+ }
+ .contain{
+    margin-bottom:50px;
+    margin-left:13%;
+ }
+ .cour > h1{
+    font-size: 50px;
+    text-align: center;
+    color: #114240;
+    margin: auto;
+    padding-top: 100px;
+    font-family: "Gill Sans", sans-serif;
+ }
