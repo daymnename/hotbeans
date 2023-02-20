@@ -329,7 +329,7 @@ padding:0px 70px 10px 70px;
 .cont > .box{
     margin: 20px;
 }
-.cont > form > p > input{
+.cont > p > input{
     padding: 20px;
     width: 400px;
     height: 50px;
@@ -338,7 +338,7 @@ padding:0px 70px 10px 70px;
     border-style: solid;
     border-width: 2px;
 }
-.cont > form > p > textarea{
+.cont > p > textarea{
     padding: 20px;
     width: 540px;
     height: 140px;
@@ -347,7 +347,7 @@ padding:0px 70px 10px 70px;
     border-style: solid;
     border-width: 2px;
 }
-.cont > form > p > .Submit{
+.cont > p > .Submit{
     background-color:#A7DBB8;
     border-color:#6da884;
     border-width: 2px;
@@ -359,16 +359,16 @@ padding:0px 70px 10px 70px;
     width: 200px;
     margin: 14.5% auto auto 43%;   
 }
-.cont > form > p > .Submit > a{
+.cont > p > .Submit > a{
     color: #114240;
  }
- .cont > form > p > .Submit> a > li{
+ .cont > p > .Submit> a > li{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
     border-radius: 30px;
     padding: 20px;
  }
- .cont > form > p > .Submit > a > li:hover{
+ .cont > p > .Submit > a > li:hover{
     background: #a0ceaf;
  }
  .line2{
