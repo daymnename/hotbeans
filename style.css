@@ -289,6 +289,31 @@ padding:0px 70px 10px 70px;
     border-radius: 5px;
     margin-right: 15px;
 }
+.butt{
+    background-color:#A7DBB8;
+    border-color:#6da884;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 27px;   
+    text-align: center;
+    border-radius: 30px;
+    list-style: none;
+    width: 200px;
+    margin-top: 40px;
+    margin-bottom: 60px;   
+}
+.butt > a{
+    color: #114240;
+ }
+.butt > a > li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 20px;
+ }
+.butt > a > li:hover{
+    background: #a0ceaf;
+ }
 .but{
     background-color:#A7DBB8;
     border-color:#6da884;
