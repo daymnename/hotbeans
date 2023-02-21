@@ -299,7 +299,8 @@ padding:0px 70px 10px 70px;
     border-radius: 30px;
     list-style: none;
     width: 200px;
-    margin-top: 40px;
+    margin: auto;
+    margin-top: 60px;
     margin-bottom: 60px;   
 }
 .butt > a{
